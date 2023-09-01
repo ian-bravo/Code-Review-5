@@ -1,8 +1,9 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-// import AgeConversion from './js/age.js';
+// import Age from './js/age.js';
 
+// Age;
 
 // function handleTriangleForm(event) {
 //   event.preventDefault();
