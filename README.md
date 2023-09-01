@@ -6,7 +6,7 @@
 
 ## GitHub Page ##
 
-https://ian-bravo.github.io/something/
+https://ian-bravo.github.io/Code-Review-5/
 
 
 ## Technologies Used
@@ -27,7 +27,7 @@ This webpage will ...
 1. Open Terminal.
 2. Change your directory to where you would want the cloned directory.
 3. Input the following command into your terminal:  
- _git clone https://github.com/ian-bravo/something_
+ _git clone https://github.com/ian-bravo/code-review-5_
 4. Navigate to the top level of this newly cloned directory.
 5. Install all packages with `$ npm install`
 6. Build the project using webpack with `$ npm run build`
