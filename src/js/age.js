@@ -6,4 +6,8 @@ export default class Age {
   mercuryAgeConverter() {
     this.ageMercury = this.ageEarth * 0.24
   }
+
+  venusAgeConverter() {
+    
+  }
 }
