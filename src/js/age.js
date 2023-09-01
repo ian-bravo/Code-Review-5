@@ -4,14 +4,11 @@ export default class Age {
   }
 
   mercuryAgeConverter() {
-    this.ageMercury = this.ageEarth * 0.24;
+    this.ageMercury = this.ageEarth / 0.24;
   }
 
   venusAgeConverter() {
-    this.ageVenus = this.ageEarth * 0.62;
+    this.ageVenus = this.ageEarth / 0.62;
   }
 
-  venusAgeConverter() {
-    
-  }
 }
