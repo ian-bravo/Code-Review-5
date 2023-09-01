@@ -38,8 +38,9 @@ describe('Age', () => {
 
   test('futureBirthdayCalculation method should determine how many years that have yet to pass until a future birthday', () => {
     const age = new Age(50);
-    age.futureBirthdayCalculation(70);
-    expect(age.futureBirthdayDifference).toEqual(20);
+    age.futureBirthdayCalculation(55);
+    expect(age.futureBirthdayDifference).toEqual(5);
+    console.log(age.futureBirthdayDifference / 0.24);
   });
 
 });
