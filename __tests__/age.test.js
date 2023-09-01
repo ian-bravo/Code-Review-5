@@ -18,4 +18,10 @@ describe('Age', () => {
     expect(age.ageVenus).toEqual((50/0.62));
   });
 
+  test('marsAgeConverter method should generate a persons age in Martian years', () => {
+    const age = new Age(50);
+    age.marsAgeConverter();
+    expect(age.ageMars).toEqual((50/1.88));
+  });
+
 });
