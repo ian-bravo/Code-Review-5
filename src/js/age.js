@@ -10,4 +10,8 @@ export default class Age {
   venusAgeConverter() {
     this.ageVenus = this.ageEarth * 0.62;
   }
+
+  venusAgeConverter() {
+    
+  }
 }
