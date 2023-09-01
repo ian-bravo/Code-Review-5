@@ -1,5 +1,5 @@
-export default class AgeConversion {
-  constructor() {
-    
+export default class Age {
+  constructor(earthAge) {
+    this.ageEarth = earthAge
   }   
 }
