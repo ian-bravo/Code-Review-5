@@ -4,7 +4,7 @@ export default class Age {
   }
 
   mercuryAgeConverter() {
-    this.ageEarth = this.ageEarth / 0.24;
+    this.ageMercury = this.ageEarth / 0.24;
   }
 
   venusAgeConverter() {
@@ -26,4 +26,10 @@ export default class Age {
   futureBirthdayCalculation (userFutureAge) {
     this.futureBirthdayDifference = userFutureAge - this.ageEarth;
   }
+
+  futureBirthdayCalculationPlanets () {
+    
+  }
+    
+
 }
