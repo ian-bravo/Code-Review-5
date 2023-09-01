@@ -1,4 +1,4 @@
-export default class Age {
+export default class AgeConversion {
   constructor() {
     
   }   
