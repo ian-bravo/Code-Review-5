@@ -8,11 +8,8 @@ describe('Age', () => {
 
   test('mercuryAgeConverter method should generate a persons age in Mercurian years', () => {
     const age = new Age(50);
-    console.log(age.ageEarth);
     age.mercuryAgeConverter();
     expect(age.ageMercury).toEqual((50/0.24));
-    console.log(age.ageMercury);
-    
   });
 
   test('venusAgeConverter method should generate a persons age in Venerian years', () => {
@@ -43,13 +40,6 @@ describe('Age', () => {
     const age = new Age(50);
     age.futureBirthdayCalculation(55);
     expect(age.futureBirthdayDifference).toEqual(5);
-    console.log(age.futureBirthdayDifference);
   });
-
-  test('futureBirthdayCalculation method should determine how many years that have yet to pass until a future birthday for both Earth and Mercury birthdays', () => {
-    const age = new Age(50);
-    age.futureBirthdayCalculationPlanets(55);
-    expect(age.futureBirthdayDifference).toEqual([5, 5/0.24]);
-  });
-
+  
 });
