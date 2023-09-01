@@ -24,4 +24,10 @@ describe('Age', () => {
     expect(age.ageMars).toEqual((50/1.88));
   });
 
+  test('jupiterAgeConverter method should generate a persons age in Jovian years', () => {
+    const age = new Age(50);
+    age.jupiterAgeConverter();
+    expect(age.ageJupiter).toEqual((50/11.86));
+  });
+
 });
