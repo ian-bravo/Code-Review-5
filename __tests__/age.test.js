@@ -30,4 +30,11 @@ describe('Age', () => {
     expect(age.ageJupiter).toEqual((50/11.86));
   });
 
+  test('pastBirthdayCalculation method should generate the number of years that have passed a specific age with respect to their current age', () => {
+    const age = new Age(50);
+    age.pastBirthdayCalculation(40);
+    expect(age.pastBirthdayDifference).toEqual(10);
+
+  });
+
 });
