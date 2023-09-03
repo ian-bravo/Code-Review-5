@@ -19,8 +19,7 @@ describe('Age', () => {
 
   test('marsAgeConverter method should generate a persons age in Martian years', () => {
     const age = new Age(50);
-    age.marsAgeConverter();
-    expect(age.ageMars).toEqual((50/1.88));
+    expect(age.marsAgeConverter()).toEqual((50/1.88));
   });
 
   test('jupiterAgeConverter method should generate a persons age in Jovian years', () => {
