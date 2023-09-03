@@ -24,8 +24,7 @@ describe('Age', () => {
 
   test('jupiterAgeConverter method should generate a persons age in Jovian years', () => {
     const age = new Age(50);
-    age.jupiterAgeConverter();
-    expect(age.ageJupiter).toEqual((50/11.86));
+    expect(age.jupiterAgeConverter()).toEqual((50/11.86));
   });
 
   test('pastBirthdayCalculation method should determine how many years have passed since a past birthday', () => {
