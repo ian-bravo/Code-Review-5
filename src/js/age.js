@@ -25,10 +25,6 @@ export default class Age {
 
   futureBirthdayCalculation (userFutureAge) {
     this.futureBirthdayDifference = userFutureAge - this.ageEarth;
-    console.log(this.ageEarth);
-    console.log(this.futureBirthdayDifference);
-    console.log(this.mercuryAgeConverter());
-    console.log(this.ageMercury);
   }
 }
     
