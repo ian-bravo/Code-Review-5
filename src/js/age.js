@@ -12,7 +12,7 @@ export default class Age {
   }
 
   marsAgeConverter() {
-    this.ageMars = this.ageEarth / 1.88;
+    return this.ageEarth / 1.88;
   }
 
   jupiterAgeConverter() {
