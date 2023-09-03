@@ -2,7 +2,7 @@
 
 #### By _**Ian Bravo**_
 
-#### _This website is ..._
+#### _This website is write the business logic for calculating your age on various planets!_
 
 ## GitHub Page ##
 
@@ -45,7 +45,7 @@ This webpage will ...
 
 MIT License  
 
-Copyright (c) dd-Mon-yyyy Ian Bravo  
+Copyright (c) 01-Sept-2023 Ian Bravo  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  
 
