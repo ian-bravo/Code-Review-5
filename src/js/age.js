@@ -16,7 +16,7 @@ export default class Age {
   }
 
   jupiterAgeConverter() {
-    this.ageJupiter = this.ageEarth / 11.86;
+    return this.ageEarth / 11.86;
   }
 
   pastBirthdayCalculation (userPastAge) {
