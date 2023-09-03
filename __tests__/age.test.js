@@ -8,9 +8,8 @@ describe('Age', () => {
 
   test('mercuryAgeConverter method should generate a persons age in Mercurian years', () => {
     const age = new Age(50);
-    age.mercuryAgeConverter();
     expect(age.mercuryAgeConverter()).toEqual((50/0.24));
-    console.log(age.ageEarth);
+    console.log(age.mercuryAgeConverter());
   });
 
   test('venusAgeConverter method should generate a persons age in Venerian years', () => {
