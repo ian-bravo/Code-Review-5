@@ -35,10 +35,10 @@ describe('Age', () => {
   });
 
   test('futureBirthdayCalculation method should determine how many years that have yet to pass until a future birthday', () => {
-    const age = new Age(50);
-    age.futureBirthdayCalculation(55);
-    expect(age.futureBirthdayDifference).toEqual(5);
-
+    const age = new Age(56);
+    age.futureBirthdayCalculation(61);
+    expect(age.ageEarth).toEqual(5);
+    console.log(age.ageEarth);
+    console.log(age.mercuryAgeConverter());
   });
-
 });
