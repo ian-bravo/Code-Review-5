@@ -2,7 +2,7 @@
 
 #### By _**Ian Bravo**_
 
-#### _This website is write the business logic for calculating your age on various planets!_
+#### _This website writes the business logic for calculating your age on various planets!_
 
 ## GitHub Page ##
 
@@ -20,7 +20,7 @@ https://ian-bravo.github.io/Code-Review-5/
 
 ## Description
 
-This webpage will ... 
+This project will show the business logic used to calculate the User's age on various planets. The business logic can also calculate the time difference of a User's future birthday or past birthday on various planets. 
 
 ## Setup/Installation Requirements
 
