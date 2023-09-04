@@ -20,7 +20,7 @@ export default class Age {
   }
 
   pastBirthdayCalculation (userPastAge) {
-    this.pastBirthdayDifference = this.ageEarth - userPastAge;
+    return this.ageEarth = this.ageEarth - userPastAge;
   }
 
   futureBirthdayCalculation (userFutureAge) {

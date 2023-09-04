@@ -30,6 +30,7 @@ describe('Age', () => {
     const age = new Age(56);
     age.pastBirthdayCalculation(43);
     expect(age.ageEarth).toEqual(13);
+    console.log(age.ageEarth);
     console.log(age.mercuryAgeConverter());
   });
 
