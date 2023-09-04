@@ -27,9 +27,10 @@ describe('Age', () => {
   });
 
   test('pastBirthdayCalculation method should determine how many years have passed since a past birthday', () => {
-    const age = new Age(50);
-    age.pastBirthdayCalculation(40);
-    expect(age.pastBirthdayDifference).toEqual(10);
+    const age = new Age(56);
+    age.pastBirthdayCalculation(43);
+    expect(age.ageEarth).toEqual(13);
+    console.log(age.mercuryAgeConverter());
   });
 
   test('futureBirthdayCalculation method should determine how many years that have yet to pass until a future birthday', () => {
