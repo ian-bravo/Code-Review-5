@@ -19,12 +19,12 @@ export default class Age {
     return this.ageEarth / 11.86;
   }
 
-  pastBirthdayCalculation (userPastAge) {
-    return this.ageEarth = this.ageEarth - userPastAge;
+  pastBirthdayCalculationEarth (userPastAgeEarth) {
+    return this.ageEarth = this.ageEarth - userPastAgeEarth;
   }
 
-  futureBirthdayCalculation (userFutureAge) {
-    return this.ageEarth = userFutureAge - this.ageEarth;
+  futureBirthdayCalculationEarth (userFutureAgeEarth) {
+    return this.ageEarth = userFutureAgeEarth - this.ageEarth;
   }
 }
     
