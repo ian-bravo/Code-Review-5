@@ -30,8 +30,6 @@ describe('Age', () => {
     const age = new Age(56);
     age.pastBirthdayCalculationEarth(43);
     expect(age.ageEarth).toEqual(13);
-    // console.log(age.ageEarth); shows the time difference in Earth years
-    // console.log(age.mercuryAgeConverter()); shows the time difference in Mercurian years
   });
 
   test('futureBirthdayCalculationEarth method should determine how many years that have yet to pass until a future birthday on Earth', () => {
@@ -40,5 +38,11 @@ describe('Age', () => {
     expect(age.ageEarth).toEqual(5);
     // console.log(age.ageEarth); shows the time difference in Earth years
     // console.log(age.mercuryAgeConverter()); shows the time difference in Mercurian years
+  });
+  test('pastBirthdayCalculationMercury method should determine how many years have passed since a past birthday on Mercury', () => {
+    const age = new Age(56);
+    age.pastBirthdayCalculationMercury(43);
+    expect(age.ageMercury).toEqual(13/0.24);
+
   });
 });
