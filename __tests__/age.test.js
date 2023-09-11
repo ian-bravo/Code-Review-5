@@ -61,5 +61,10 @@ describe('Age', () => {
     const age = new Age(56);
     expect(age.futureBirthdayCalculationMercury(61)).toBeCloseTo(5/0.24);
   });
+
+  test('futureBirthdayCalculationVenus method should determine how many years that have yet to pass until a future birthday on Venus', () => {
+    const age = new Age(56);
+    expect(age.futureBirthdayCalculationVenus(61)).toBeCloseTo(5/0.62);
+  });
   
 });
