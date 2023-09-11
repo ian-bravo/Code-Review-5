@@ -46,4 +46,9 @@ describe('Age', () => {
     const age = new Age(56);
     expect(age.pastBirthdayCalculationVenus(43)).toBeCloseTo(13/0.62);
   });
+
+  test('pastBirthdayCalculationMars method should determine how many years have passed since a past birthday on Mars', () => {
+    const age = new Age(56);
+    expect(age.pastBirthdayCalculationMars(43)).toBeCloseTo(13/1.88);
+  });
 });
