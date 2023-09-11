@@ -38,8 +38,7 @@ describe('Age', () => {
   });
   test('pastBirthdayCalculationMercury method should determine how many years have passed since a past birthday on Mercury', () => {
     const age = new Age(56);
-    age.pastBirthdayCalculationMercury(43);
-    expect(age.ageMercury).toEqual(13/0.24);
+    expect(age.pastBirthdayCalculationMercury(43)).toBeCloseTo(13/0.24);
 
   });
 });
