@@ -27,8 +27,9 @@ export default class Age {
     return userFutureAgeEarth - this.ageEarth;
   }
 
-  pastBirthdayCalculationMercury () {
-    
+  pastBirthdayCalculationMercury (userPastAgeEarth) {
+    let ageMercury = userPastAgeEarth / 0.24;
+    return this.ageEarth / 0.24 - ageMercury;
   }
 }
     
