@@ -56,6 +56,10 @@ export default class Age {
     let ageVenus = userFutureAgeEarth / 0.62;
     return ageVenus - (this.ageEarth / 0.62);
   }
+
+  futureBirthdayCalculationMars (userFutureAgeEarth) {
+    
+  }
   
 }
     
