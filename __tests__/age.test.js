@@ -56,5 +56,10 @@ describe('Age', () => {
     const age = new Age(56);
     expect(age.pastBirthdayCalculationJupiter(43)).toBeCloseTo(13/11.86);
   });
+
+  test('futureBirthdayCalculationMercury method should determine how many years that have yet to pass until a future birthday on Mercury', () => {
+    const age = new Age(56);
+    expect(age.futureBirthdayCalculationMercury(61)).toBeCloseTo(5/0.24);
+  });
   
 });
