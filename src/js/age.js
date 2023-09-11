@@ -48,7 +48,8 @@ export default class Age {
   }
 
   futureBirthdayCalculationMercury (userFutureAgeMercury) {
-    
+    let ageMercury = userFutureAgeMercury / 0.24
+    return ageMercury - (this.ageEarth / 0.24);
   }
 }
     
