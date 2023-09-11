@@ -33,7 +33,8 @@ export default class Age {
   }
 
   pastBirthdayCalculationVenus (userPastAgeEarth) {
-    
+    let ageVenus = userPastAgeEarth / 0.62;
+    return this.ageEarth / 0.62 - ageVenus;
   }
 }
     
