@@ -36,9 +36,14 @@ describe('Age', () => {
     age.futureBirthdayCalculationEarth(61);
     expect(age.futureBirthdayCalculationEarth(61)).toEqual(5);
   });
+
   test('pastBirthdayCalculationMercury method should determine how many years have passed since a past birthday on Mercury', () => {
     const age = new Age(56);
     expect(age.pastBirthdayCalculationMercury(43)).toBeCloseTo(13/0.24);
+  });
 
+  test('pastBirthdayCalculationVenus method should determine how many years have passed since a past birthday on Venus', () => {
+    const age = new Age(56);
+    expect(age.pastBirthdayCalculationVenus(43)).toBeCloseTo(13/0.62);
   });
 });
