@@ -4,11 +4,6 @@
 
 #### _This website writes the business logic for calculating your age on various planets!_
 
-## GitHub Page ##
-
-https://ian-bravo.github.io/Code-Review-5/
-
-
 ## Technologies Used
 
 * _HTML_
@@ -16,8 +11,6 @@ https://ian-bravo.github.io/Code-Review-5/
 * _JavaScript_
 * _npm v8.1.2_
 * _node v16.13.1_
-* _fix_
-* _fix_
 
 ## Description
 
