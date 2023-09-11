@@ -51,4 +51,10 @@ describe('Age', () => {
     const age = new Age(56);
     expect(age.pastBirthdayCalculationMars(43)).toBeCloseTo(13/1.88);
   });
+
+  test('pastBirthdayCalculationJupiter method should determine how many years have passed since a past birthday on Jupiter', () => {
+    const age = new Age(56);
+    expect(age.pastBirthdayCalculationJupiter(43)).toBeCloseTo(13/11.86);
+  });
+  
 });
