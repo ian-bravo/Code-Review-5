@@ -28,8 +28,7 @@ describe('Age', () => {
 
   test('pastBirthdayCalculationEarth method should determine how many years have passed since a past birthday on Earth', () => {
     const age = new Age(56);
-    age.pastBirthdayCalculationEarth(43);
-    expect(age.ageEarth).toEqual(13);
+    expect(age.pastBirthdayCalculationEarth(43)).toEqual(13);
   });
 
   test('futureBirthdayCalculationEarth method should determine how many years that have yet to pass until a future birthday on Earth', () => {
